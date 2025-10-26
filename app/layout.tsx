@@ -163,14 +163,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-         <meta name="google-site-verification" content="YOUR_ADSENSE_CODE_HERE" />
-          <Script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6138812664032756"
-  crossOrigin="anonymous"
-  strategy="afterInteractive"
-/>
-
+google.com, pub-6965971637321938, DIRECT, f08c47fec0942fa0
+<meta name="google-adsense-account" content="ca-pub-6965971637321938"></meta>
         {/* Preload critical resources */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="href=https://fonts.gstatic.com" crossOrigin="" />
