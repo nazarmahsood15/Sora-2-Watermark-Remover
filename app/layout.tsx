@@ -44,12 +44,13 @@ export default function RootLayout({
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* ✅ Correct way to load Adsense script in Next.js */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6965971637321938"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+       <Script
+  async
+  src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT}`}
+  crossOrigin="anonymous"
+  strategy="afterInteractive"
+/>
+
         {children}
       </body>
     </html>
